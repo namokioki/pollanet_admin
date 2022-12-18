@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'ONE-Mobile-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ONE-Mobile-Title';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'ONE-Mobile-Regular';
+}
+a{
+  text-decoration:none;
+}
+.App {
+  text-align: center;
+  margin: 0px auto;
+}
+.user_board_table{
+  margin-top: 50px;
+}
+.ubt_header{
+  background-color: #0399df;
+  color: #fff;
+  height: 50px;
+}
+.none{
+  height: 200px;
+  border-bottom: 1px solid #0399df;
+}
+.user {
+  margin: 0px auto;
+  width: 100%;
+  height: 2000px;
+  background-color: #7ec6ff;
+}
+.uri_td{
+  height: 40px;
+  border-bottom: 1px solid #0399df;
+}
+#search_box {
+  width: 300px;
+  float: right;
+  margin-right: 20px;
+}
+
+#user {
+  margin: 0px auto;
+  width: 90%;
+}
+
+#userlist {
+  margin: 0px auto;
+  float: right;
+  padding-top: 50px;
+  width: 80%;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+.nav_title {
+  text-align: left;
+  margin-top: 150px;
+  padding-bottom: 5px;
+}
+
+.u_page {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  display: inline;
+}
+
+.u_nav {
+  float: left;
+  position: relative;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.login {
+  padding-top: 300px;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/public/back.png');
+}
+
+.login_box {
+  margin: 0px auto;
+  width: 30%;
+  height: 500px;
+}
+.comment_box{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.comment_id{
+  font-size: 15px;
+  float: left;
+}
+.comment_date{
+  float: left;
+  margin-left: 10px;
+  font-size: 15px;
+  color: gray;
+}
+.recommend{
+  float: right;
+  margin-right: 30px;
+}
+.comment_content{
+  padding: 10px 30px 0px 30px;
+  text-align: left;
+  clear: both;
+}
+.comment_info{
+  display: block;
+  margin-bottom: 10px;
+  padding: 0px 30px;
+
+}
